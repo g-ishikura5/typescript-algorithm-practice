@@ -19,7 +19,6 @@ function sort(arr: number[]) {
 
   for (let x of arr) {
     items[counts[x - min]] = x;
-    counts[x - min]++;
   }
   return items;
 }
